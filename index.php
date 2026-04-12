@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inscrição para Presidente dos EUA</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
   <style>
     body {
       background-color: #f0f4f8;
@@ -77,6 +76,10 @@
       object-fit: cover;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
+
+    .form-check-label {
+      cursor: pointer;
+    }
   </style>
 </head>
 
@@ -92,7 +95,7 @@
       </p>
     </div>
 
-    <form action="dados.php" method="POST">
+    <form action="dados.php" method="POST" enctype="multipart/form-data">
       <!-- 1. DADOS PESSOAIS -->
       <div class="card shadow-sm mb-4">
         <div class="card-body">
@@ -106,7 +109,7 @@
             </div>
             <div class="col-md-6">
               <label class="form-label fw-semibold">Data de nascimento <span class="text-danger">*</span></label>
-              <input type="date" class="form-control" name="data_nasc" required />
+              <input type="date" class="form-control" name="data_nasc" required max="<?= date('Y-m-d') ?>" />
             </div>
             <div class="col-md-6">
               <label class="form-label fw-semibold">Estado natal <span class="text-danger">*</span></label>
