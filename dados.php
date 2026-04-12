@@ -39,24 +39,24 @@
     return htmlspecialchars(trim($dado ?? ''), ENT_QUOTES, 'UTF-8');
   }
 
-  $nome            = limpar($_POST['nome'] ?? '');
-  $data_nasc       = limpar($_POST['data_nasc'] ?? '');
-  $estado_natal    = limpar($_POST['estado_natal'] ?? '');
-  $email           = limpar($_POST['email'] ?? '');
-  $cidadao_nato    = limpar($_POST['cidadao_nato'] ?? '');
+  $nome = limpar($_POST['nome'] ?? '');
+  $data_nasc = limpar($_POST['data_nasc'] ?? '');
+  $estado_natal = limpar($_POST['estado_natal'] ?? '');
+  $email = limpar($_POST['email'] ?? '');
+  $cidadao_nato = limpar($_POST['cidadao_nato'] ?? '');
   $anos_residencia = limpar($_POST['anos_residencia'] ?? '');
-  $cargo_publico   = limpar($_POST['cargo_publico'] ?? '');
-  $ultimo_cargo    = limpar($_POST['ultimo_cargo'] ?? '—');
-  $partido         = limpar($_POST['partido'] ?? '');
-  $slogan          = limpar($_POST['slogan'] ?? '');
-  $areas           = $_POST['areas'] ?? [];
-  $proposta        = limpar($_POST['proposta_principal'] ?? '');
-  $formacao        = limpar($_POST['formacao'] ?? '');
-  $area_formacao   = limpar($_POST['area_formacao'] ?? '—');
-  $experiencia     = limpar($_POST['experiencia'] ?? '');
-  $autopreparo     = (int)($_POST['autopreparo'] ?? 0);
-  $vice            = limpar($_POST['vice_presidente'] ?? '—');
-  $observacoes     = limpar($_POST['observacoes'] ?? '—');
+  $cargo_publico = limpar($_POST['cargo_publico'] ?? '');
+  $ultimo_cargo = limpar($_POST['ultimo_cargo'] ?? '—');
+  $partido = limpar($_POST['partido'] ?? '');
+  $slogan = limpar($_POST['slogan'] ?? '');
+  $areas = $_POST['areas'] ?? [];
+  $proposta = limpar($_POST['proposta_principal'] ?? '');
+  $formacao = limpar($_POST['formacao'] ?? '');
+  $area_formacao = limpar($_POST['area_formacao'] ?? '—');
+  $experiencia = limpar($_POST['experiencia'] ?? '');
+  $autopreparo = (int)($_POST['autopreparo'] ?? 0);
+  $vice = limpar($_POST['vice_presidente'] ?? '—');
+  $observacoes = limpar($_POST['observacoes'] ?? '—');
 
   $decl_ver  = isset($_POST['declaracao_veracidade'])   ? true : false;
   $decl_ele  = isset($_POST['declaracao_elegibilidade']) ? true : false;
