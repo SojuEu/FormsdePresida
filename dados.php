@@ -13,7 +13,6 @@
     }
 
     .header-banner {
-      /* background: linear-gradient(135deg, #0d1b4b, #1a3a8f); */
       color: #fff;
       border-radius: 12px;
       padding: 2rem;
@@ -21,7 +20,6 @@
       margin-bottom: 1.5rem;
     }
 
-    
     .fundo-aguia {
       background-image: url("./img/trump.jpg");
       background-repeat: no-repeat;
@@ -56,6 +54,16 @@
     .stars {
       color: #f4a11e;
       font-size: 1.1rem;
+    }
+
+    .btn {
+      background: #142d70;
+      border: none;
+      font-weight: 600;
+    }
+
+    .btn:hover {
+      background: #0d1b4b;
     }
   </style>
 </head>
@@ -143,7 +151,7 @@
     <!-- DADOS PESSOAIS -->
     <div class="card shadow-sm mb-4">
       <div class="card-body">
-        <p class="section-title"><i class="bi bi-person-fill me-1"></i> Dados Pessoais</p>
+        <p class="section-title"> Dados Pessoais</p>
         <div class="row g-3">
           <div class="col-md-6">
             <p class="info-label mb-0">Nome completo</p>
@@ -178,7 +186,7 @@
     <!-- ELEGIBILIDADE -->
     <div class="card shadow-sm mb-4">
       <div class="card-body">
-        <p class="section-title"><i class="bi bi-shield-check-fill me-1"></i> Requisitos de Elegibilidade</p>
+        <p class="section-title"> Requisitos de Elegibilidade</p>
         <div class="row g-3">
           <div class="col-md-6">
             <p class="info-label mb-1">Cidadão nato dos EUA</p>
@@ -203,7 +211,7 @@
     <!-- PARTIDO E PLATAFORMA -->
     <div class="card shadow-sm mb-4">
       <div class="card-body">
-        <p class="section-title"><i class="bi bi-flag-fill me-1"></i> Partido e Plataforma</p>
+        <p class="section-title"> Partido e Plataforma</p>
         <div class="row g-3">
           <div class="col-md-6">
             <p class="info-label mb-0">Partido</p>
@@ -234,7 +242,7 @@
     <!-- EXPERIÊNCIA -->
     <div class="card shadow-sm mb-4">
       <div class="card-body">
-        <p class="section-title"><i class="bi bi-briefcase-fill me-1"></i> Formação e Experiência</p>
+        <p class="section-title"> Formação e Experiência</p>
         <div class="row g-3">
           <div class="col-md-6">
             <p class="info-label mb-0">Formação acadêmica</p>
@@ -262,7 +270,7 @@
     <!-- DECLARAÇÕES -->
     <div class="card shadow-sm mb-4">
       <div class="card-body">
-        <p class="section-title"><i class="bi bi-pen-fill me-1"></i> Declarações e Complementos</p>
+        <p class="section-title"> Declarações e Complementos</p>
         <div class="row g-3">
           <div class="col-12">
             <div class="d-flex flex-column gap-2">
@@ -286,8 +294,8 @@
     </div>
 
     <div class="text-center pb-5">
-      <a href="index.php" class="btn btn-outline-primary">
-        <i class="bi bi-arrow-left me-1"></i> Voltar ao Formulário
+      <a href="index.php" class="btn text-white">
+         Voltar ao Formulário
       </a>
     </div>
 

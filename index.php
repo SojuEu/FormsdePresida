@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inscrição para Presidente dos EUA</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #f0f4f8;
     }
 
     .header-banner {
-      /* background: linear-gradient(135deg, #0d1b4b, #1a3a8f); */
       color: #fff;
       border-radius: 12px;
       padding: 2rem;
@@ -57,13 +57,13 @@
     }
 
     .btn-submit {
-      background: linear-gradient(135deg, #0d1b4b, #1a3a8f);
+      background: #142d70;
       border: none;
       font-weight: 600;
     }
 
     .btn-submit:hover {
-      opacity: 0.9;
+      background: #0d1b4b;
     }
 
     .img-preview {
@@ -100,7 +100,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-person-fill me-1"></i> 1. Dados Pessoais
+            1. Dados Pessoais
           </p>
           <div class="row g-3">
             <div class="col-md-6">
@@ -190,8 +190,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-shield-check-fill me-1"></i> 2. Requisitos de
-            Elegibilidade
+            2. Requisitos de Elegibilidade
           </p>
           <div class="row g-3">
             <div class="col-md-6">
@@ -240,7 +239,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-flag-fill me-1"></i> 3. Partido e Plataforma
+            3. Partido e Plataforma
             Política
           </p>
           <div class="row g-3">
@@ -261,7 +260,7 @@
                 placeholder="Seu slogan em até 10 palavras" />
             </div>
             <div class="col-12">
-              <label class="form-label fw-semibold">Principais áreas de foco (marque até 3)</label>
+              <label class="form-label fw-semibold">Principais áreas de foco</label>
               <div class="row g-2 mt-1">
                 <?php foreach ([
                   'Economia',
@@ -297,7 +296,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-briefcase-fill me-1"></i> 4. Formação e
+            4. Formação e
             Experiência
           </p>
           <div class="row g-3">
@@ -342,7 +341,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-pen-fill me-1"></i> 5. Declarações Finais
+            5. Declarações Finais
           </p>
           <div class="row g-3">
             <div class="col-12">
@@ -382,7 +381,7 @@
       <div class="card shadow-sm mb-4">
         <div class="card-body">
           <p class="section-title">
-            <i class="bi bi-pen-fill me-1"></i> Foto do Candidato(a)
+            6. Foto do Candidato(a)
           </p>
           <label for="foto" class="form-label">Foto do Candidato(a):</label>
           <input type="file" class="form-control" name="foto" id="foto" accept="image/*">
@@ -392,7 +391,7 @@
 
       <div class="d-grid mb-2">
         <button type="submit" class="btn btn-submit btn-lg text-white">
-          <i class="bi bi-send-fill me-2"></i>Enviar Candidatura
+         Enviar Candidatura
         </button>
       </div>
       <p class="text-center text-white small mb-5">
