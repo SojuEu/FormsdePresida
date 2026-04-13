@@ -13,12 +13,22 @@
     }
 
     .header-banner {
-      background: linear-gradient(135deg, #0d1b4b, #1a3a8f);
+      /* background: linear-gradient(135deg, #0d1b4b, #1a3a8f); */
       color: #fff;
       border-radius: 12px;
       padding: 2rem;
       text-align: center;
       margin-bottom: 1.5rem;
+    }
+
+    
+    .fundo-aguia {
+      background-image: url("./img/trump.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      background-attachment: fixed;
     }
 
     .section-title {
@@ -50,7 +60,7 @@
   </style>
 </head>
 
-<body class="py-4">
+<body class="py-4 fundo-aguia">
   <div class="container" style="max-width: 780px;">
 
     <?php

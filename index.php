@@ -12,7 +12,7 @@
     }
 
     .header-banner {
-      background: linear-gradient(135deg, #0d1b4b, #1a3a8f);
+      /* background: linear-gradient(135deg, #0d1b4b, #1a3a8f); */
       color: #fff;
       border-radius: 12px;
       padding: 2rem;
@@ -195,7 +195,7 @@
           </p>
           <div class="row g-3">
             <div class="col-md-6">
-              <label class="form-label fw-semibold">Você é patriota dos EUA?
+              <label class="form-label fw-semibold">Você é nativo dos EUA?
                 <span class="text-danger">*</span></label>
               <div class="d-flex gap-4 mt-1">
                 <div class="form-check">
@@ -209,7 +209,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <label class="form-label fw-semibold">Anos não sendo imigrante nos EUA
+              <label class="form-label fw-semibold">Anos residente nos EUA
                 <span class="text-danger">*</span></label>
               <input type="number" class="form-control" name="anos_residencia" min="0" max="100" placeholder="Ex: 30"
                 required />
@@ -248,7 +248,6 @@
               <label class="form-label fw-semibold">Filiação partidária <span class="text-danger">*</span></label>
               <select class="form-select" name="partido" required>
                 <option value="">Selecione...</option>
-                <option>Trump</option>
                 <option>Partido Republicano</option>
                 <option>Partido Libertário</option>
                 <option>Partido Verde</option>
@@ -266,17 +265,13 @@
               <div class="row g-2 mt-1">
                 <?php foreach ([
                   'Economia',
-                  'Saúde dos legítimos
-                  americanos',
+                  'Saúde',
                   'Educação',
-                  'Defesa Nacional contra
-                  imigrantes',
+                  'Defesa e Segurança',
                   'Meio Ambiente',
-                  'Imigração de
-                  mexicanos',
-                  'Tecnologia (menos a da China)',
-                  'Direitos Civis dos
-                  legítimos americanos brancos'
+                  'Imigração',
+                  'Tecnologia',
+                  'Direitos Civis'
                 ] as $area): ?>
                   <div class="col-6 col-md-3">
                     <div class="form-check">
